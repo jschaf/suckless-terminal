@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Consolas:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Consolas:pixelsize=26:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -80,7 +80,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-static unsigned int tabspaces = 8;
+unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) Brewer dark theme. */
 const char *colorname[] = {
 
